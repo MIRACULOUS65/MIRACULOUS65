@@ -1,4 +1,4 @@
-                                                                    Hello, I'm SUSHOVAN GHOSH
+                                                           Hello, I'm SUSHOVAN GHOSH
 🌱 I’m currently learning JavaScript<br>⚡ I love creating innovative solutions for real-life problems<br>🔭 Currently I am working on my Content Creator Hiring Website<br>💬 You can connect with me in sushovan1908@gmail.com
 
 
