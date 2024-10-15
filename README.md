@@ -1,7 +1,7 @@
 # Hello, I'm SUSHOVAN GHOSH
 # B.Tech CS'28 | Coding Enthusiast | Open-Source Contribution | Web-Development
 
-🌱 I’m currently learning JavaScript<br>⚡ I love creating innovative solutions for real-life problems<br> /*🔭 Currently I am working on my Content Creator Hiring Website<br>*/🤝 To connect with me in social media click👉 https://beacons.ai/sushovan_680<br>💬 You can connect with me in sushovan1908@gmail.com
+🌱 I’m currently learning JavaScript<br>⚡ I love creating innovative solutions for real-life problems<br>🤝 To connect with me in social media click👉 https://beacons.ai/sushovan_680<br>💬 You can connect with me in sushovan1908@gmail.com
 
 
 ## 🌐 Socials:
