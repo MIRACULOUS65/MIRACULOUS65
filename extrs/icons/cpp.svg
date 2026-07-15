@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="C++">
+<title>C++</title>
+<style>
+@keyframes cpp-ani {
+  0% { stroke-dashoffset: -176; }
+  50% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 176; }
+}
+.cpp-ellipse {
+  fill: none;
+  stroke: #00599C;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+  stroke-dasharray: 176;
+  stroke-dashoffset: -176;
+  animation: cpp-ani 0.7s infinite ease-in-out;
+  opacity: 1;
+}
+.cpp-ellipse-2 {
+  transform-origin: 50px 50px;
+  transform: rotate(57deg);
+  animation-delay: 0.1s;
+}
+.cpp-ellipse-3 {
+  transform-origin: 50px 50px;
+  transform: rotate(123deg);
+  animation-delay: 0.2s;
+}
+</style>
+<ellipse class="cpp-ellipse" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="cpp-ellipse cpp-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="cpp-ellipse cpp-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+</svg>

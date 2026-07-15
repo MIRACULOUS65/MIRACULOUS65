@@ -24,59 +24,61 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
 
 ## Known Technologies
 
+<sub>Icons are animated SVGs — open the README on GitHub to see them pulse.</sub>
+
 **Languages**
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+<img src="./extrs/icons/c.svg" width="48" height="48" alt="C" title="C" />
+<img src="./extrs/icons/cpp.svg" width="48" height="48" alt="C++" title="C++" />
+<img src="./extrs/icons/python.svg" width="48" height="48" alt="Python" title="Python" />
+<img src="./extrs/icons/javascript.svg" width="48" height="48" alt="JavaScript" title="JavaScript" />
+<img src="./extrs/icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript" />
+<img src="./extrs/icons/sql.svg" width="48" height="48" alt="SQL" title="SQL" />
 
 **Frontend**
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![React.js](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+<img src="./extrs/icons/html5.svg" width="48" height="48" alt="HTML5" title="HTML5" />
+<img src="./extrs/icons/css3.svg" width="48" height="48" alt="CSS3" title="CSS3" />
+<img src="./extrs/icons/tailwind.svg" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
+<img src="./extrs/icons/react.svg" width="48" height="48" alt="React.js" title="React.js" />
+<img src="./extrs/icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js" />
+<img src="./extrs/icons/vite.svg" width="48" height="48" alt="Vite" title="Vite" />
 
 **Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+<img src="./extrs/icons/nodejs.svg" width="48" height="48" alt="Node.js" title="Node.js" />
+<img src="./extrs/icons/express.svg" width="48" height="48" alt="Express.js" title="Express.js" />
+<img src="./extrs/icons/flask.svg" width="48" height="48" alt="Flask" title="Flask" />
+<img src="./extrs/icons/restapi.svg" width="48" height="48" alt="REST APIs" title="REST APIs" />
+<img src="./extrs/icons/graphql.svg" width="48" height="48" alt="GraphQL" title="GraphQL" />
+<img src="./extrs/icons/socketio.svg" width="48" height="48" alt="Socket.io" title="Socket.io" />
 
 **State Management**
 
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge&logoColor=white)
-![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white)
+<img src="./extrs/icons/redux.svg" width="48" height="48" alt="Redux" title="Redux" />
+<img src="./extrs/icons/zustand.svg" width="48" height="48" alt="Zustand" title="Zustand" />
+<img src="./extrs/icons/recoil.svg" width="48" height="48" alt="Recoil" title="Recoil" />
 
 **Databases**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma ORM](https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+<img src="./extrs/icons/mongodb.svg" width="48" height="48" alt="MongoDB" title="MongoDB" />
+<img src="./extrs/icons/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" />
+<img src="./extrs/icons/firebase.svg" width="48" height="48" alt="Firebase" title="Firebase" />
+<img src="./extrs/icons/redis.svg" width="48" height="48" alt="Redis" title="Redis" />
+<img src="./extrs/icons/prisma.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM" />
 
 **Blockchain**
 
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black)
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
+<img src="./extrs/icons/solidity.svg" width="48" height="48" alt="Solidity" title="Solidity" />
+<img src="./extrs/icons/hardhat.svg" width="48" height="48" alt="Hardhat" title="Hardhat" />
+<img src="./extrs/icons/ethersjs.svg" width="48" height="48" alt="Ethers.js" title="Ethers.js" />
 
 **DevOps & Tools**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<img src="./extrs/icons/docker.svg" width="48" height="48" alt="Docker" title="Docker" />
+<img src="./extrs/icons/git.svg" width="48" height="48" alt="Git" title="Git" />
+<img src="./extrs/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub" />
+<img src="./extrs/icons/postman.svg" width="48" height="48" alt="Postman" title="Postman" />
 
 ## GitHub Stats
 

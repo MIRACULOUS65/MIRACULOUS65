@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="GitHub">
+<title>GitHub</title>
+<style>
+@keyframes github-ani {
+  0% { stroke-dashoffset: -176; }
+  50% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 176; }
+}
+.github-ellipse {
+  fill: none;
+  stroke: #8A8A8A;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+  stroke-dasharray: 176;
+  stroke-dashoffset: -176;
+  animation: github-ani 0.7s infinite ease-in-out;
+  opacity: 1;
+}
+.github-ellipse-2 {
+  transform-origin: 50px 50px;
+  transform: rotate(57deg);
+  animation-delay: 0.1s;
+}
+.github-ellipse-3 {
+  transform-origin: 50px 50px;
+  transform: rotate(123deg);
+  animation-delay: 0.2s;
+}
+</style>
+<ellipse class="github-ellipse" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="github-ellipse github-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="github-ellipse github-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+</svg>

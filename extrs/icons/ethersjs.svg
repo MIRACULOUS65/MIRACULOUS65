@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Ethers.js">
+<title>Ethers.js</title>
+<style>
+@keyframes ethersjs-ani {
+  0% { stroke-dashoffset: -176; }
+  50% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 176; }
+}
+.ethersjs-ellipse {
+  fill: none;
+  stroke: #2535A0;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+  stroke-dasharray: 176;
+  stroke-dashoffset: -176;
+  animation: ethersjs-ani 0.7s infinite ease-in-out;
+  opacity: 1;
+}
+.ethersjs-ellipse-2 {
+  transform-origin: 50px 50px;
+  transform: rotate(57deg);
+  animation-delay: 0.1s;
+}
+.ethersjs-ellipse-3 {
+  transform-origin: 50px 50px;
+  transform: rotate(123deg);
+  animation-delay: 0.2s;
+}
+</style>
+<ellipse class="ethersjs-ellipse" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="ethersjs-ellipse ethersjs-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
+<ellipse class="ethersjs-ellipse ethersjs-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+</svg>
