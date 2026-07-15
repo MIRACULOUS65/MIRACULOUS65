@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="PostgreSQL">
 <title>PostgreSQL</title>
 <style>
-@keyframes pg-draw { 0%{stroke-dashoffset:240;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-240;opacity:.3} }
-.pg-s{fill:none;stroke:#4169E1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:240;stroke-dashoffset:240;animation:pg-draw 2.6s ease-in-out infinite}
+@keyframes pg-glow {0%,100%{filter:drop-shadow(0 0 0px #4169E1)} 50%{filter:drop-shadow(0 0 8px #4169E1)}}
+.pg-body{fill:#4169E1;animation:pg-glow 2s ease-in-out infinite}
 </style>
-<path class="pg-s" d="M30 60c-6-16 2-34 20-34s26 18 20 34c-4 10-14 16-20 16s-16-6-20-16z"/>
-<path class="pg-s" d="M62 44l10-4 M64 54l10 2" style="animation-delay:.3s"/>
+<path class="pg-body" d="M30 60c-6-16 2-34 20-34s26 18 20 34c-4 10-14 16-20 16s-16-6-20-16z"/>
 </svg>

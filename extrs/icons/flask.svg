@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Flask">
 <title>Flask</title>
 <style>
-@keyframes flask-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
-.flask-s{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:flask-draw 2.4s ease-in-out infinite}
+@keyframes flask-fill { 0%,100%{transform:translateY(14px)} 50%{transform:translateY(0)} }
+.flask-outline{fill:none;stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.flask-liquid{fill:#38BDF8;opacity:.85;animation:flask-fill 2s ease-in-out infinite}
 </style>
-<path class="flask-s" d="M40 18h20 M44 18v22l-20 34c-3 5 1 10 6 10h40c5 0 9-5 6-10L56 40V18"/>
-<path class="flask-s" d="M32 60h36" style="animation-delay:.3s"/>
+<clipPath id="flaskclip"><path d="M40 18h20v22l20 34c3 5-1 10-6 10H26c-5 0-9-5-6-10l20-34V18z"/></clipPath>
+<g clip-path="url(#flaskclip)">
+  <rect class="flask-liquid" x="20" y="46" width="60" height="40"/>
+</g>
+<path class="flask-outline" d="M40 18h20 M44 18v22l-20 34c-3 5 1 10 6 10h40c5 0 9-5 6-10L56 40V18"/>
 </svg>

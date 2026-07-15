@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="HTML5">
 <title>HTML5</title>
 <style>
-@keyframes html5-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
-.html5-s{fill:none;stroke:#E34F26;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:html5-draw 2.4s ease-in-out infinite}
+@keyframes html5-flicker {0%,100%{transform:scale(1) rotate(0deg)} 25%{transform:scale(1.08) rotate(-2deg)} 50%{transform:scale(.96) rotate(2deg)} 75%{transform:scale(1.05) rotate(-1deg)}}
+.html5-s{fill:#E34F26;transform-box:fill-box;transform-origin:bottom center;animation:html5-flicker .9s ease-in-out infinite}
 </style>
-<path class="html5-s" d="M26 20l4 46 20 8 20-8 4-46H26z"/>
-<path class="html5-s" d="M35 34h30l-1 10H40l1 10h22" style="animation-delay:.3s"/>
+<path class="html5-s" d="M26 16h48l-4.4 50L50 74l-19.6-8z"/>
+<path d="M50 24H33l1.2 13H50v-13z" fill="#F16529" opacity=".001"/>
 </svg>

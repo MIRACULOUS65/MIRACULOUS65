@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Python">
 <title>Python</title>
 <style>
-@keyframes py-draw { 0%{stroke-dashoffset:240;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-240;opacity:.35} }
-.py-s{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:240;stroke-dashoffset:240;animation:py-draw 2.6s ease-in-out infinite}
-.py-b{stroke:#3776AB}
-.py-y{stroke:#FFD43B;animation-delay:.35s}
+@keyframes py-orbit-a { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+@keyframes py-orbit-b { from{transform:rotate(360deg)} to{transform:rotate(0deg)} }
+.py-b{fill:#3776AB;transform-box:fill-box;transform-origin:center;animation:py-orbit-a 4s linear infinite}
+.py-y{fill:#FFD43B;transform-box:fill-box;transform-origin:center;animation:py-orbit-b 4s linear infinite}
 </style>
-<path class="py-s py-b" d="M50 18c-14 0-16 6-16 12v10h24"/>
-<path class="py-s py-b" d="M50 40H30c-6 0-8 4-8 10s2 10 8 10h8"/>
-<path class="py-s py-y" d="M50 82c14 0 16-6 16-12V60H42"/>
-<path class="py-s py-y" d="M50 60h20c6 0 8-4 8-10s-2-10-8-10h-8"/>
+<path class="py-b" d="M50 18c-14 0-16 6-16 12v10h24v4H30c-6 0-10 4-10 12s4 12 10 12h4V54h20c8 0 12-4 12-10V30c0-6-2-12-16-12z"/>
+<path class="py-y" d="M50 82c14 0 16-6 16-12V60H42v-4h24c6 0 10-4 10-12s-4-12-10-12h-4v14H42c-8 0-12 4-12 10v10c0 6 2 12 16 12z"/>
 </svg>

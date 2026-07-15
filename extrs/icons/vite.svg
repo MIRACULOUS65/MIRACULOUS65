@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Vite">
 <title>Vite</title>
 <style>
-@keyframes vite-draw { 0%{stroke-dashoffset:180;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-180;opacity:.35} }
-.vite-s{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:180;stroke-dashoffset:180;animation:vite-draw 2.2s ease-in-out infinite}
-.vite-p{stroke:#646CFF}
-.vite-y{stroke:#FFDD35;animation-delay:.3s}
+@keyframes vite-flash {0%,80%,100%{opacity:1;filter:brightness(1)} 90%{opacity:.3;filter:brightness(2.5)}}
+.vite-p{fill:#646CFF}
+.vite-y{fill:#FFDD35;animation:vite-flash 1.8s ease-in-out infinite}
 </style>
-<path class="vite-s vite-p" d="M20 26l30 54 30-54-30 8z"/>
-<path class="vite-s vite-y" d="M46 20l14 8-6 20-16-6z"/>
+<path class="vite-p" d="M18 24l32 58 32-58-32 9z"/>
+<path class="vite-y" d="M44 18l16 9-7 22-18-7z"/>
 </svg>

@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hardhat">
 <title>Hardhat</title>
 <style>
-@keyframes hh-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
-.hh-s{fill:none;stroke:#FFF100;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:hh-draw 2.4s ease-in-out infinite}
+@keyframes hh-tip {0%,100%{transform:rotate(0deg)} 50%{transform:rotate(-12deg)}}
+.hh-top{fill:#FFF100;transform-box:fill-box;transform-origin:bottom left;animation:hh-tip 1.8s ease-in-out infinite}
+.hh-brim{fill:#e6d800}
 </style>
-<path class="hh-s" d="M50 22c-14 0-24 12-24 26h48c0-14-10-26-24-26z"/>
-<path class="hh-s" d="M18 48h64v8H18z" style="animation-delay:.3s"/>
+<rect class="hh-brim" x="18" y="56" width="64" height="8" rx="3"/>
+<path class="hh-top" d="M50 22c-14 0-24 12-24 26h48c0-14-10-26-24-26z"/>
 </svg>

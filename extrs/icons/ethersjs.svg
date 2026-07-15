@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Ethers.js">
 <title>Ethers.js</title>
 <style>
-@keyframes eth-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
-.eth-s{fill:none;stroke:#2535A0;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:eth-draw 2.4s ease-in-out infinite}
+@keyframes eth-morph {0%,100%{transform:scaleY(1)} 50%{transform:scaleY(.7)}}
+.eth-top{fill:#2535A0;transform-box:fill-box;transform-origin:bottom;animation:eth-morph 1.8s ease-in-out infinite}
+.eth-bottom{fill:#8c9ce0}
 </style>
-<path class="eth-s" d="M50 14l-22 36 22 13 22-13z"/>
-<path class="eth-s" d="M28 56l22 30 22-30-22 13z" style="animation-delay:.3s"/>
+<path class="eth-top" d="M50 14l-22 36 22 13 22-13z"/>
+<path class="eth-bottom" d="M28 56l22 30 22-30-22 13z"/>
 </svg>

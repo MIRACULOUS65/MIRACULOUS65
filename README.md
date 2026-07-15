@@ -24,61 +24,75 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
 
 ## Known Technologies
 
-<sub>Icons are animated SVGs — open the README on GitHub to see them pulse.</sub>
+<sub>Icons are animated SVGs — open the README on GitHub to see them move.</sub>
 
 **Languages**
 
-<img src="./extrs/icons/c.svg" width="48" height="48" alt="C" title="C" />
-<img src="./extrs/icons/cpp.svg" width="48" height="48" alt="C++" title="C++" />
-<img src="./extrs/icons/python.svg" width="48" height="48" alt="Python" title="Python" />
-<img src="./extrs/icons/javascript.svg" width="48" height="48" alt="JavaScript" title="JavaScript" />
-<img src="./extrs/icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript" />
-<img src="./extrs/icons/sql.svg" width="48" height="48" alt="SQL" title="SQL" />
+<p>
+<img src="./extrs/icons/c.svg" width="64" height="64" alt="C" title="C" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/cpp.svg" width="64" height="64" alt="C++" title="C++" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/python.svg" width="64" height="64" alt="Python" title="Python" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/javascript.svg" width="64" height="64" alt="JavaScript" title="JavaScript" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/typescript.svg" width="64" height="64" alt="TypeScript" title="TypeScript" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/sql.svg" width="64" height="64" alt="SQL" title="SQL" style="margin: 0 10px 10px 0;" />
+</p>
 
 **Frontend**
 
-<img src="./extrs/icons/html5.svg" width="48" height="48" alt="HTML5" title="HTML5" />
-<img src="./extrs/icons/css3.svg" width="48" height="48" alt="CSS3" title="CSS3" />
-<img src="./extrs/icons/tailwind.svg" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
-<img src="./extrs/icons/react.svg" width="48" height="48" alt="React.js" title="React.js" />
-<img src="./extrs/icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js" />
-<img src="./extrs/icons/vite.svg" width="48" height="48" alt="Vite" title="Vite" />
+<p>
+<img src="./extrs/icons/html5.svg" width="64" height="64" alt="HTML5" title="HTML5" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/css3.svg" width="64" height="64" alt="CSS3" title="CSS3" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/tailwind.svg" width="64" height="64" alt="Tailwind CSS" title="Tailwind CSS" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/react.svg" width="64" height="64" alt="React.js" title="React.js" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/nextjs.svg" width="64" height="64" alt="Next.js" title="Next.js" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/vite.svg" width="64" height="64" alt="Vite" title="Vite" style="margin: 0 10px 10px 0;" />
+</p>
 
 **Backend**
 
-<img src="./extrs/icons/nodejs.svg" width="48" height="48" alt="Node.js" title="Node.js" />
-<img src="./extrs/icons/express.svg" width="48" height="48" alt="Express.js" title="Express.js" />
-<img src="./extrs/icons/flask.svg" width="48" height="48" alt="Flask" title="Flask" />
-<img src="./extrs/icons/restapi.svg" width="48" height="48" alt="REST APIs" title="REST APIs" />
-<img src="./extrs/icons/graphql.svg" width="48" height="48" alt="GraphQL" title="GraphQL" />
-<img src="./extrs/icons/socketio.svg" width="48" height="48" alt="Socket.io" title="Socket.io" />
+<p>
+<img src="./extrs/icons/nodejs.svg" width="64" height="64" alt="Node.js" title="Node.js" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/express.svg" width="64" height="64" alt="Express.js" title="Express.js" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/flask.svg" width="64" height="64" alt="Flask" title="Flask" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/restapi.svg" width="64" height="64" alt="REST APIs" title="REST APIs" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/graphql.svg" width="64" height="64" alt="GraphQL" title="GraphQL" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/socketio.svg" width="64" height="64" alt="Socket.io" title="Socket.io" style="margin: 0 10px 10px 0;" />
+</p>
 
 **State Management**
 
-<img src="./extrs/icons/redux.svg" width="48" height="48" alt="Redux" title="Redux" />
-<img src="./extrs/icons/zustand.svg" width="48" height="48" alt="Zustand" title="Zustand" />
-<img src="./extrs/icons/recoil.svg" width="48" height="48" alt="Recoil" title="Recoil" />
+<p>
+<img src="./extrs/icons/redux.svg" width="64" height="64" alt="Redux" title="Redux" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/zustand.svg" width="64" height="64" alt="Zustand" title="Zustand" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/recoil.svg" width="64" height="64" alt="Recoil" title="Recoil" style="margin: 0 10px 10px 0;" />
+</p>
 
 **Databases**
 
-<img src="./extrs/icons/mongodb.svg" width="48" height="48" alt="MongoDB" title="MongoDB" />
-<img src="./extrs/icons/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" />
-<img src="./extrs/icons/firebase.svg" width="48" height="48" alt="Firebase" title="Firebase" />
-<img src="./extrs/icons/redis.svg" width="48" height="48" alt="Redis" title="Redis" />
-<img src="./extrs/icons/prisma.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM" />
+<p>
+<img src="./extrs/icons/mongodb.svg" width="64" height="64" alt="MongoDB" title="MongoDB" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/postgresql.svg" width="64" height="64" alt="PostgreSQL" title="PostgreSQL" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/firebase.svg" width="64" height="64" alt="Firebase" title="Firebase" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/redis.svg" width="64" height="64" alt="Redis" title="Redis" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/prisma.svg" width="64" height="64" alt="Prisma ORM" title="Prisma ORM" style="margin: 0 10px 10px 0;" />
+</p>
 
 **Blockchain**
 
-<img src="./extrs/icons/solidity.svg" width="48" height="48" alt="Solidity" title="Solidity" />
-<img src="./extrs/icons/hardhat.svg" width="48" height="48" alt="Hardhat" title="Hardhat" />
-<img src="./extrs/icons/ethersjs.svg" width="48" height="48" alt="Ethers.js" title="Ethers.js" />
+<p>
+<img src="./extrs/icons/solidity.svg" width="64" height="64" alt="Solidity" title="Solidity" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/hardhat.svg" width="64" height="64" alt="Hardhat" title="Hardhat" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/ethersjs.svg" width="64" height="64" alt="Ethers.js" title="Ethers.js" style="margin: 0 10px 10px 0;" />
+</p>
 
 **DevOps & Tools**
 
-<img src="./extrs/icons/docker.svg" width="48" height="48" alt="Docker" title="Docker" />
-<img src="./extrs/icons/git.svg" width="48" height="48" alt="Git" title="Git" />
-<img src="./extrs/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub" />
-<img src="./extrs/icons/postman.svg" width="48" height="48" alt="Postman" title="Postman" />
+<p>
+<img src="./extrs/icons/docker.svg" width="64" height="64" alt="Docker" title="Docker" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/git.svg" width="64" height="64" alt="Git" title="Git" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/github.svg" width="64" height="64" alt="GitHub" title="GitHub" style="margin: 0 10px 10px 0;" />
+<img src="./extrs/icons/postman.svg" width="64" height="64" alt="Postman" title="Postman" style="margin: 0 10px 10px 0;" />
+</p>
 
 ## GitHub Stats
 

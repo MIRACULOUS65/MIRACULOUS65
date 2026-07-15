@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="CSS3">
 <title>CSS3</title>
 <style>
-@keyframes css3-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
-.css3-s{fill:none;stroke:#1572B6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:css3-draw 2.4s ease-in-out infinite}
+@keyframes css3-hue { from{filter:hue-rotate(0deg)} to{filter:hue-rotate(360deg)} }
+.css3-s{animation:css3-hue 3s linear infinite}
 </style>
-<path class="css3-s" d="M26 20l4 46 20 8 20-8 4-46H26z"/>
-<path class="css3-s" d="M65 34H38l1 10h25l-2 20-12 5-12-5-1-8" style="animation-delay:.3s"/>
+<g class="css3-s">
+<path fill="#1572B6" d="M26 16h48l-4.4 50L50 74l-19.6-8z"/>
+<path fill="#33A9DC" d="M50 20h20l-3.6 42L50 68z"/>
+</g>
 </svg>

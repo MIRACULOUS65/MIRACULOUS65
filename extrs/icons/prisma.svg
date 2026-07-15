@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Prisma ORM">
 <title>Prisma ORM</title>
 <style>
-@keyframes prisma-draw { 0%{stroke-dashoffset:200;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.3} }
-.prisma-s{fill:none;stroke:#5A67D8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:prisma-draw 2.4s ease-in-out infinite}
+@keyframes prisma-tilt {0%,100%{transform:rotate(0deg)} 50%{transform:rotate(8deg)}}
+.prisma-t{fill:#5A67D8;transform-box:fill-box;transform-origin:center;animation:prisma-tilt 2s ease-in-out infinite}
 </style>
-<path class="prisma-s" d="M50 16l32 56H18z"/>
+<path class="prisma-t" d="M50 14l34 60H16z"/>
 </svg>

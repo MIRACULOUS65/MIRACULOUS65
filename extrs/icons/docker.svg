@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Docker">
 <title>Docker</title>
 <style>
-@keyframes docker-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
-.docker-s{fill:none;stroke:#2496ED;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:docker-draw 2.4s ease-in-out infinite}
+@keyframes docker-float {0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)}}
+.docker-box{fill:#2496ED}
+.b1{animation:docker-float 1.6s ease-in-out infinite}
+.b2{animation:docker-float 1.6s ease-in-out infinite .2s}
+.b3{animation:docker-float 1.6s ease-in-out infinite .4s}
+.b4{animation:docker-float 1.6s ease-in-out infinite .1s}
+.docker-wave{fill:none;stroke:#2496ED;stroke-width:5;stroke-linecap:round}
 </style>
-<rect class="docker-s" x="18" y="46" width="14" height="12"/>
-<rect class="docker-s" x="34" y="46" width="14" height="12" style="animation-delay:.15s"/>
-<rect class="docker-s" x="50" y="46" width="14" height="12" style="animation-delay:.3s"/>
-<rect class="docker-s" x="34" y="32" width="14" height="12" style="animation-delay:.45s"/>
-<path class="docker-s" d="M14 60c4 14 18 20 34 20 20 0 34-10 40-26" style="animation-delay:.6s"/>
+<rect class="docker-box b1" x="18" y="46" width="14" height="12"/>
+<rect class="docker-box b2" x="34" y="46" width="14" height="12"/>
+<rect class="docker-box b3" x="50" y="46" width="14" height="12"/>
+<rect class="docker-box b4" x="34" y="32" width="14" height="12"/>
+<path class="docker-wave" d="M14 60c4 14 18 20 34 20 20 0 34-10 40-26"/>
 </svg>

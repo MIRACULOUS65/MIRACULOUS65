@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="REST APIs">
 <title>REST APIs</title>
 <style>
-@keyframes rest-draw { 0%{stroke-dashoffset:200;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.35} }
-.rest-s{fill:none;stroke:#FF6C37;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:rest-draw 2.4s ease-in-out infinite}
+@keyframes rest-ping { 0%{transform:translateX(0);opacity:1} 45%{transform:translateX(36px);opacity:1} 50%{opacity:0} 51%{transform:translateX(0);opacity:0} 55%{opacity:1} 100%{transform:translateX(0);opacity:1} }
+.rest-node{fill:#FF6C37}
+.rest-packet{fill:#fff;animation:rest-ping 1.8s ease-in-out infinite}
 </style>
-<circle class="rest-s" cx="26" cy="30" r="8"/>
-<circle class="rest-s" cx="74" cy="30" r="8" style="animation-delay:.2s"/>
-<circle class="rest-s" cx="50" cy="72" r="8" style="animation-delay:.4s"/>
-<path class="rest-s" d="M32 35l14 30 M68 35L54 65" style="animation-delay:.15s"/>
+<circle class="rest-node" cx="22" cy="50" r="10"/>
+<circle class="rest-node" cx="78" cy="50" r="10"/>
+<circle class="rest-packet" cx="30" cy="50" r="5"/>
 </svg>

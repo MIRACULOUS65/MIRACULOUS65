@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Tailwind CSS">
 <title>Tailwind CSS</title>
 <style>
-@keyframes tw-draw { 0%{stroke-dashoffset:260;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.35} }
-.tw-s{fill:none;stroke:#06B6D4;stroke-width:5;stroke-linecap:round;stroke-dasharray:260;stroke-dashoffset:260;animation:tw-draw 2.6s ease-in-out infinite}
+@keyframes tw-wave { 0%{transform:translateX(-6px)} 50%{transform:translateX(6px)} 100%{transform:translateX(-6px)} }
+.tw-top{fill:#38BDF8;animation:tw-wave 2s ease-in-out infinite}
+.tw-bottom{fill:#0EA5E9;animation:tw-wave 2s ease-in-out infinite .5s}
 </style>
-<path class="tw-s" d="M22 45c3-11 11-16 20-13 6 2 8 7 14 9 8 3 15-1 18-9-3 11-11 16-20 13-6-2-8-7-14-9-8-3-15 1-18 9z"/>
-<path class="tw-s" d="M22 65c3-11 11-16 20-13 6 2 8 7 14 9 8 3 15-1 18-9-3 11-11 16-20 13-6-2-8-7-14-9-8-3-15 1-18 9z" style="animation-delay:.35s"/>
+<path class="tw-top" d="M50 30c-9 0-14 4.5-16 13.5 3.6-4.5 7.8-6.2 12.6-5 2.7.7 4.7 2.7 6.9 4.9 3.5 3.6 7.6 7.6 16.5 7.6 9 0 14-4.5 16-13.5-3.6 4.5-7.8 6.2-12.6 5-2.7-.7-4.7-2.7-6.9-4.9-3.5-3.6-7.6-7.6-16.5-7.6z"/>
+<path class="tw-bottom" d="M34 54c-9 0-14 4.5-16 13.5 3.6-4.5 7.8-6.2 12.6-5 2.7.7 4.7 2.7 6.9 4.9 3.5 3.6 7.6 7.6 16.5 7.6 9 0 14-4.5 16-13.5-3.6 4.5-7.8 6.2-12.6 5-2.7-.7-4.7-2.7-6.9-4.9-3.5-3.6-7.6-7.6-16.5-7.6z"/>
 </svg>

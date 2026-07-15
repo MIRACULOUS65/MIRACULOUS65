@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Node.js">
 <title>Node.js</title>
 <style>
-@keyframes node-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
-.node-s{fill:none;stroke:#339933;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:node-draw 2.4s ease-in-out infinite}
+@keyframes node-beat {0%,100%{transform:scale(1)} 45%{transform:scale(1)} 50%{transform:scale(1.18)} 55%{transform:scale(1)} 65%{transform:scale(1.1)} 70%{transform:scale(1)}}
+.node-hex{fill:none;stroke:#339933;stroke-width:5;stroke-linejoin:round;transform-box:fill-box;transform-origin:center;animation:node-beat 1.6s ease-in-out infinite}
 </style>
-<path class="node-s" d="M50 16l30 17v34l-30 17-30-17V33z"/>
-<path class="node-s" d="M50 34v32 M36 42l14 8 14-8 M36 58l14-8 14 8" style="animation-delay:.3s"/>
+<path class="node-hex" d="M50 16l30 17v34l-30 17-30-17V33z"/>
 </svg>

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="MongoDB">
 <title>MongoDB</title>
 <style>
-@keyframes mongo-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
-.mongo-s{fill:none;stroke:#47A248;stroke-width:5;stroke-linecap:round;stroke-dasharray:220;stroke-dashoffset:220;animation:mongo-draw 2.4s ease-in-out infinite}
+@keyframes mongo-sway {0%,100%{transform:rotate(-4deg)} 50%{transform:rotate(4deg)}}
+.mongo-leaf{fill:#47A248;transform-box:fill-box;transform-origin:bottom center;animation:mongo-sway 2.2s ease-in-out infinite}
 </style>
-<path class="mongo-s" d="M50 16c14 14 18 30 18 42 0 16-8 26-18 30-10-4-18-14-18-30 0-12 4-28 18-42z"/>
-<path class="mongo-s" d="M50 62v24" style="animation-delay:.3s"/>
+<path class="mongo-leaf" d="M50 16c14 14 18 30 18 42 0 16-8 26-18 30-10-4-18-14-18-30 0-12 4-28 18-42z"/>
+<line x1="50" y1="62" x2="50" y2="86" stroke="#47A248" stroke-width="4"/>
 </svg>

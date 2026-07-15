@@ -1,9 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Express.js">
 <title>Express.js</title>
 <style>
-@keyframes ex-draw { 0%{stroke-dashoffset:260;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.35} }
-.ex-s{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:260;stroke-dashoffset:260;animation:ex-draw 2.6s ease-in-out infinite}
+@keyframes ex-slide { 0%{transform:translateX(-30px);opacity:0} 60%{transform:translateX(0);opacity:1} 100%{transform:translateX(0);opacity:1} }
+.ex-track{fill:none;stroke:#4a4a4a;stroke-width:3;stroke-dasharray:4 4}
+.ex-car{animation:ex-slide 1.6s ease-out infinite}
 </style>
-<path class="ex-s" d="M18 50h30 M40 40l14 20 M54 40l-14 20" style="animation-delay:.3s"/>
-<path class="ex-s" d="M58 62c4-6 8-12 8-18 0-8-6-12-12-12-8 0-12 8-8 16s16 14 26 14c8 0 14-4 14-10"/>
+<line class="ex-track" x1="18" y1="50" x2="82" y2="50"/>
+<g class="ex-car">
+<rect x="18" y="42" width="20" height="16" rx="3" fill="#fff"/>
+<circle cx="24" cy="60" r="4" fill="#333"/>
+<circle cx="34" cy="60" r="4" fill="#333"/>
+</g>
 </svg>

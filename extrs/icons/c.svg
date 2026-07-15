@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="C">
 <title>C</title>
 <style>
-@keyframes c-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
-.c-s{fill:none;stroke:#A8B9CC;stroke-width:6;stroke-linecap:round;stroke-dasharray:220;stroke-dashoffset:220;animation:c-draw 2.4s ease-in-out infinite}
+@keyframes c-spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+.c-arc{fill:none;stroke:#A8B9CC;stroke-width:8;stroke-linecap:round;transform-origin:50px 50px;animation:c-spin 3.5s linear infinite}
 </style>
-<path class="c-s" d="M68 30 A28 28 0 1 0 68 70"/>
+<path class="c-arc" d="M70 30A28 28 0 1 0 70 70"/>
 </svg>

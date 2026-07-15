@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Socket.io">
 <title>Socket.io</title>
 <style>
-@keyframes sock-draw { 0%{stroke-dashoffset:200;opacity:.2} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.2} }
-.sock-s{fill:none;stroke:#ffffff;stroke-width:4;stroke-dasharray:200;stroke-dashoffset:200;animation:sock-draw 2.2s ease-in-out infinite}
+@keyframes sock-ripple { 0%{r:6;opacity:1} 100%{r:38;opacity:0} }
+.sock-ring{fill:none;stroke:#000;stroke-width:3;animation:sock-ripple 1.8s ease-out infinite}
+.sock-ring2{animation-delay:.6s}
+.sock-ring3{animation-delay:1.2s}
 </style>
-<circle cx="50" cy="50" r="8" fill="#ffffff"/>
-<circle class="sock-s" cx="50" cy="50" r="20"/>
-<circle class="sock-s" cx="50" cy="50" r="32" style="animation-delay:.3s"/>
+<circle cx="50" cy="50" r="7" fill="#000"/>
+<circle class="sock-ring sock-ring1" cx="50" cy="50" r="6"/>
+<circle class="sock-ring sock-ring2" cx="50" cy="50" r="6"/>
+<circle class="sock-ring sock-ring3" cx="50" cy="50" r="6"/>
 </svg>

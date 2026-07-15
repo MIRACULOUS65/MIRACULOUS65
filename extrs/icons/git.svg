@@ -1,12 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Git">
 <title>Git</title>
 <style>
-@keyframes git-draw { 0%{stroke-dashoffset:200;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.3} }
-.git-s{fill:none;stroke:#F05032;stroke-width:5;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200;animation:git-draw 2.4s ease-in-out infinite}
+@keyframes git-pop {0%,100%{transform:scale(1)} 50%{transform:scale(1.5)}}
+.git-node{fill:#F05032;transform-box:fill-box;transform-origin:center}
+.n1{animation:git-pop 1.5s ease-in-out infinite}
+.n2{animation:git-pop 1.5s ease-in-out infinite .5s}
+.n3{animation:git-pop 1.5s ease-in-out infinite 1s}
+.git-line{fill:none;stroke:#F05032;stroke-width:4}
 </style>
-<circle cx="34" cy="70" r="6" fill="#F05032"/>
-<circle cx="34" cy="40" r="6" fill="#F05032"/>
-<circle cx="64" cy="55" r="6" fill="#F05032"/>
-<path class="git-s" d="M34 46v18"/>
-<path class="git-s" d="M34 46c0 6 4 9 10 9h14" style="animation-delay:.3s"/>
+<path class="git-line" d="M34 46v18"/>
+<path class="git-line" d="M34 46c0 6 4 9 10 9h14"/>
+<circle class="git-node n1" cx="34" cy="70" r="6"/>
+<circle class="git-node n2" cx="34" cy="40" r="6"/>
+<circle class="git-node n3" cx="64" cy="55" r="6"/>
 </svg>

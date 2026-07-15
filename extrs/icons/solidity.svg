@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Solidity">
 <title>Solidity</title>
 <style>
-@keyframes sol-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
-.sol-s{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:sol-draw 2.4s ease-in-out infinite}
+@keyframes sol-shine {0%,100%{opacity:.5} 50%{opacity:1}}
+.sol-top{fill:#fff;opacity:.85}
+.sol-bottom{fill:#8c8c8c}
+.sol-shine{fill:#fff;animation:sol-shine 1.3s ease-in-out infinite}
 </style>
-<path class="sol-s" d="M42 18L28 42l14 24 14-24z"/>
-<path class="sol-s" d="M58 82l14-24-14-24-14 24z" style="animation-delay:.3s"/>
+<path class="sol-top" d="M42 18L28 42l14 24 14-24z"/>
+<path class="sol-bottom" d="M58 82l14-24-14-24-14 24z"/>
+<path class="sol-shine" d="M42 22l-10 20 10 18 8-18z" opacity=".3"/>
 </svg>

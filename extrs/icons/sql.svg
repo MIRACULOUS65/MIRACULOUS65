@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="SQL">
 <title>SQL</title>
 <style>
-@keyframes sql-draw { 0%{stroke-dashoffset:200;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.35} }
-.sql-s{fill:none;stroke:#4479A1;stroke-width:5;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200;animation:sql-draw 2.4s ease-in-out infinite}
+@keyframes sql-squish {0%,100%{transform:scaleY(1)} 50%{transform:scaleY(.55)}}
+.sql-ring{fill:none;stroke:#4479A1;stroke-width:5;transform-box:fill-box;transform-origin:center}
+.r1{animation:sql-squish 1.6s ease-in-out infinite}
+.r2{animation:sql-squish 1.6s ease-in-out infinite .25s}
+.r3{animation:sql-squish 1.6s ease-in-out infinite .5s}
 </style>
-<ellipse class="sql-s" cx="50" cy="28" rx="24" ry="10"/>
-<path class="sql-s" d="M26 28v20c0 5 11 10 24 10s24-5 24-10V28" style="animation-delay:.3s"/>
-<path class="sql-s" d="M26 48v20c0 5 11 10 24 10s24-5 24-10V48" style="animation-delay:.6s"/>
+<ellipse class="sql-ring r1" cx="50" cy="30" rx="26" ry="10"/>
+<ellipse class="sql-ring r2" cx="50" cy="50" rx="26" ry="10"/>
+<ellipse class="sql-ring r3" cx="50" cy="70" rx="26" ry="10"/>
 </svg>

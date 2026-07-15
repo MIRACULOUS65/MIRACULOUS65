@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="TypeScript">
 <title>TypeScript</title>
 <style>
-@keyframes ts-draw { 0%{stroke-dashoffset:200;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.35} }
-.ts-s{fill:none;stroke:#3178C6;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:ts-draw 2.4s ease-in-out infinite}
+@keyframes ts-blink {0%,50%{opacity:1} 51%,100%{opacity:0}}
+.ts-sq{fill:#3178C6}
+.ts-letter{fill:#fff;font-family:monospace;font-size:34px;font-weight:bold}
+.ts-cursor{fill:#fff;animation:ts-blink 1s step-end infinite}
 </style>
-<rect class="ts-s" x="20" y="20" width="60" height="60" rx="6"/>
-<path class="ts-s" d="M34 40h16 M42 40v22" style="animation-delay:.3s"/>
+<rect class="ts-sq" x="18" y="18" width="64" height="64" rx="8"/>
+<text class="ts-letter" x="27" y="65">TS</text>
+<rect class="ts-cursor" x="70" y="38" width="6" height="26"/>
 </svg>

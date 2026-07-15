@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Redis">
 <title>Redis</title>
 <style>
-@keyframes redis-draw { 0%{stroke-dashoffset:200;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.3} }
-.redis-s{fill:none;stroke:#DC382D;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:redis-draw 2.4s ease-in-out infinite}
+@keyframes redis-shift {0%,100%{transform:translateX(0)} 50%{transform:translateX(8px)}}
+.redis-l{fill:#DC382D}
+.l1{animation:redis-shift 1.4s ease-in-out infinite}
+.l2{animation:redis-shift 1.4s ease-in-out infinite .25s;animation-direction:alternate-reverse}
+.l3{animation:redis-shift 1.4s ease-in-out infinite .5s}
 </style>
-<ellipse class="redis-s" cx="50" cy="34" rx="26" ry="10"/>
-<path class="redis-s" d="M24 34v16c0 5 12 10 26 10s26-5 26-10V34" style="animation-delay:.3s"/>
-<path class="redis-s" d="M24 50v16c0 5 12 10 26 10s26-5 26-10V50" style="animation-delay:.6s"/>
+<ellipse class="redis-l l1" cx="50" cy="30" rx="26" ry="9"/>
+<ellipse class="redis-l l2" cx="50" cy="50" rx="26" ry="9"/>
+<ellipse class="redis-l l3" cx="50" cy="70" rx="26" ry="9"/>
 </svg>
