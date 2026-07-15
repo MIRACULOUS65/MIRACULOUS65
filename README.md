@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src="./ascii-art.png" width="400" alt="ASCII-art portrait of Sushovan Ghosh" />
+      <img src="./qSZMGZlf_400x400.jpg" width="400" alt="ASCII-art portrait of Sushovan Ghosh" />
     </td>
     <td>
       <pre>
