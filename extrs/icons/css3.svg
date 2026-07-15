@@ -1,33 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="CSS3">
 <title>CSS3</title>
 <style>
-@keyframes css3-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.css3-ellipse {
-  fill: none;
-  stroke: #1572B6;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: css3-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.css3-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.css3-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes css3-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
+.css3-s{fill:none;stroke:#1572B6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:220;stroke-dashoffset:220;animation:css3-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="css3-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="css3-ellipse css3-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="css3-ellipse css3-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="css3-s" d="M26 20l4 46 20 8 20-8 4-46H26z"/>
+<path class="css3-s" d="M65 34H38l1 10h25l-2 20-12 5-12-5-1-8" style="animation-delay:.3s"/>
 </svg>

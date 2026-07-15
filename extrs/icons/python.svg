@@ -1,33 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Python">
 <title>Python</title>
 <style>
-@keyframes python-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.python-ellipse {
-  fill: none;
-  stroke: #3776AB;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: python-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.python-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.python-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes py-draw { 0%{stroke-dashoffset:240;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-240;opacity:.35} }
+.py-s{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:240;stroke-dashoffset:240;animation:py-draw 2.6s ease-in-out infinite}
+.py-b{stroke:#3776AB}
+.py-y{stroke:#FFD43B;animation-delay:.35s}
 </style>
-<ellipse class="python-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="python-ellipse python-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="python-ellipse python-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="py-s py-b" d="M50 18c-14 0-16 6-16 12v10h24"/>
+<path class="py-s py-b" d="M50 40H30c-6 0-8 4-8 10s2 10 8 10h8"/>
+<path class="py-s py-y" d="M50 82c14 0 16-6 16-12V60H42"/>
+<path class="py-s py-y" d="M50 60h20c6 0 8-4 8-10s-2-10-8-10h-8"/>
 </svg>

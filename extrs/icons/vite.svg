@@ -1,33 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Vite">
 <title>Vite</title>
 <style>
-@keyframes vite-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.vite-ellipse {
-  fill: none;
-  stroke: #646CFF;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: vite-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.vite-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.vite-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes vite-draw { 0%{stroke-dashoffset:180;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-180;opacity:.35} }
+.vite-s{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:180;stroke-dashoffset:180;animation:vite-draw 2.2s ease-in-out infinite}
+.vite-p{stroke:#646CFF}
+.vite-y{stroke:#FFDD35;animation-delay:.3s}
 </style>
-<ellipse class="vite-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="vite-ellipse vite-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="vite-ellipse vite-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="vite-s vite-p" d="M20 26l30 54 30-54-30 8z"/>
+<path class="vite-s vite-y" d="M46 20l14 8-6 20-16-6z"/>
 </svg>

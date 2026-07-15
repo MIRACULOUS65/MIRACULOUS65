@@ -1,33 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="REST APIs">
 <title>REST APIs</title>
 <style>
-@keyframes restapi-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.restapi-ellipse {
-  fill: none;
-  stroke: #FF6C37;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: restapi-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.restapi-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.restapi-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes rest-draw { 0%{stroke-dashoffset:200;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.35} }
+.rest-s{fill:none;stroke:#FF6C37;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:200;stroke-dashoffset:200;animation:rest-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="restapi-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="restapi-ellipse restapi-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="restapi-ellipse restapi-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<circle class="rest-s" cx="26" cy="30" r="8"/>
+<circle class="rest-s" cx="74" cy="30" r="8" style="animation-delay:.2s"/>
+<circle class="rest-s" cx="50" cy="72" r="8" style="animation-delay:.4s"/>
+<path class="rest-s" d="M32 35l14 30 M68 35L54 65" style="animation-delay:.15s"/>
 </svg>

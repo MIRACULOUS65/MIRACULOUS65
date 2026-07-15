@@ -1,33 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Express.js">
 <title>Express.js</title>
 <style>
-@keyframes express-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.express-ellipse {
-  fill: none;
-  stroke: #909090;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: express-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.express-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.express-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes ex-draw { 0%{stroke-dashoffset:260;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.35} }
+.ex-s{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:260;stroke-dashoffset:260;animation:ex-draw 2.6s ease-in-out infinite}
 </style>
-<ellipse class="express-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="express-ellipse express-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="express-ellipse express-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="ex-s" d="M18 50h30 M40 40l14 20 M54 40l-14 20" style="animation-delay:.3s"/>
+<path class="ex-s" d="M58 62c4-6 8-12 8-18 0-8-6-12-12-12-8 0-12 8-8 16s16 14 26 14c8 0 14-4 14-10"/>
 </svg>

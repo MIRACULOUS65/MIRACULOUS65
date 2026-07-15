@@ -1,33 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Git">
 <title>Git</title>
 <style>
-@keyframes git-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.git-ellipse {
-  fill: none;
-  stroke: #F05032;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: git-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.git-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.git-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes git-draw { 0%{stroke-dashoffset:200;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-200;opacity:.3} }
+.git-s{fill:none;stroke:#F05032;stroke-width:5;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200;animation:git-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="git-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="git-ellipse git-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="git-ellipse git-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<circle cx="34" cy="70" r="6" fill="#F05032"/>
+<circle cx="34" cy="40" r="6" fill="#F05032"/>
+<circle cx="64" cy="55" r="6" fill="#F05032"/>
+<path class="git-s" d="M34 46v18"/>
+<path class="git-s" d="M34 46c0 6 4 9 10 9h14" style="animation-delay:.3s"/>
 </svg>

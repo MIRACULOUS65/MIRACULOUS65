@@ -1,33 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="GraphQL">
 <title>GraphQL</title>
 <style>
-@keyframes graphql-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.graphql-ellipse {
-  fill: none;
-  stroke: #E10098;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: graphql-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.graphql-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.graphql-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes gql-draw { 0%{stroke-dashoffset:260;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.35} }
+.gql-s{fill:none;stroke:#E10098;stroke-width:5;stroke-linejoin:round;stroke-dasharray:260;stroke-dashoffset:260;animation:gql-draw 2.6s ease-in-out infinite}
 </style>
-<ellipse class="graphql-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="graphql-ellipse graphql-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="graphql-ellipse graphql-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="gql-s" d="M50 18l28 16v32L50 82 22 66V34z"/>
+<circle cx="50" cy="18" r="5" fill="#E10098"/>
+<circle cx="78" cy="34" r="5" fill="#E10098"/>
+<circle cx="78" cy="66" r="5" fill="#E10098"/>
+<circle cx="50" cy="82" r="5" fill="#E10098"/>
+<circle cx="22" cy="66" r="5" fill="#E10098"/>
+<circle cx="22" cy="34" r="5" fill="#E10098"/>
 </svg>

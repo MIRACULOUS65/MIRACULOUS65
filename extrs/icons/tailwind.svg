@@ -1,33 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Tailwind CSS">
 <title>Tailwind CSS</title>
 <style>
-@keyframes tailwind-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.tailwind-ellipse {
-  fill: none;
-  stroke: #06B6D4;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: tailwind-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.tailwind-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.tailwind-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes tw-draw { 0%{stroke-dashoffset:260;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.35} }
+.tw-s{fill:none;stroke:#06B6D4;stroke-width:5;stroke-linecap:round;stroke-dasharray:260;stroke-dashoffset:260;animation:tw-draw 2.6s ease-in-out infinite}
 </style>
-<ellipse class="tailwind-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="tailwind-ellipse tailwind-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="tailwind-ellipse tailwind-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="tw-s" d="M22 45c3-11 11-16 20-13 6 2 8 7 14 9 8 3 15-1 18-9-3 11-11 16-20 13-6-2-8-7-14-9-8-3-15 1-18 9z"/>
+<path class="tw-s" d="M22 65c3-11 11-16 20-13 6 2 8 7 14 9 8 3 15-1 18-9-3 11-11 16-20 13-6-2-8-7-14-9-8-3-15 1-18 9z" style="animation-delay:.35s"/>
 </svg>

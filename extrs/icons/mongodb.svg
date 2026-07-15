@@ -1,33 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="MongoDB">
 <title>MongoDB</title>
 <style>
-@keyframes mongodb-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.mongodb-ellipse {
-  fill: none;
-  stroke: #47A248;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: mongodb-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.mongodb-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.mongodb-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes mongo-draw { 0%{stroke-dashoffset:220;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.3} }
+.mongo-s{fill:none;stroke:#47A248;stroke-width:5;stroke-linecap:round;stroke-dasharray:220;stroke-dashoffset:220;animation:mongo-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="mongodb-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="mongodb-ellipse mongodb-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="mongodb-ellipse mongodb-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="mongo-s" d="M50 16c14 14 18 30 18 42 0 16-8 26-18 30-10-4-18-14-18-30 0-12 4-28 18-42z"/>
+<path class="mongo-s" d="M50 62v24" style="animation-delay:.3s"/>
 </svg>

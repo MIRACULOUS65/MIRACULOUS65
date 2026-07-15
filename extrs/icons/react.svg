@@ -1,33 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="React.js">
 <title>React.js</title>
 <style>
-@keyframes react-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.react-ellipse {
-  fill: none;
-  stroke: #61DAFB;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: react-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.react-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.react-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes react-ani {0% {stroke-dashoffset: -176;}50% {stroke-dashoffset: 0;}100% {stroke-dashoffset: 176;}}
+.react-ellipse {fill: none;stroke: #61dafb;stroke-miterlimit: 10;stroke-width: 3px;stroke-dasharray: 176;stroke-dashoffset: -176;animation: react-ani 0.7s infinite ease-in-out;opacity: 1;}
+.react-ellipse-2 {transform-origin: 50px 50px;transform: rotate(57deg);animation-delay: 0.1s;}
+.react-ellipse-3 {transform-origin: 50px 50px;transform: rotate(123deg);animation-delay: 0.2s;}
 </style>
-<ellipse class="react-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="react-ellipse react-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="react-ellipse react-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<circle cx="50" cy="50" r="6" fill="#61dafb"/>
+<ellipse class="react-ellipse" cx="50" cy="50" rx="40" ry="16"/>
+<ellipse class="react-ellipse react-ellipse-2" cx="50" cy="50" rx="40" ry="16"/>
+<ellipse class="react-ellipse react-ellipse-3" cx="50" cy="50" rx="40" ry="16"/>
 </svg>

@@ -1,33 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="GitHub">
 <title>GitHub</title>
 <style>
-@keyframes github-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.github-ellipse {
-  fill: none;
-  stroke: #8A8A8A;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: github-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.github-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.github-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes gh-draw { 0%{stroke-dashoffset:260;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-260;opacity:.3} }
+.gh-s{fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:260;stroke-dashoffset:260;animation:gh-draw 2.6s ease-in-out infinite}
 </style>
-<ellipse class="github-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="github-ellipse github-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="github-ellipse github-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="gh-s" d="M50 16c-18 0-32 14-32 32 0 14 9 26 22 30v-11c-6 1-8-3-9-5l-4-7c-2-3-1-4 1-4 3 0 5 3 6 4 3 4 6 3 8 2 1-4 3-6 5-7-12-1-19-6-19-18 0-5 2-9 5-12-1-3 0-7 1-9 3-1 8 1 12 4 4-1 8-2 12-2s8 1 12 2c4-3 9-5 12-4 1 2 2 6 1 9 3 3 5 7 5 12 0 12-7 17-19 18 3 2 5 6 5 11v14c13-4 22-16 22-30 0-18-14-32-32-32z"/>
 </svg>

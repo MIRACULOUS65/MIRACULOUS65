@@ -1,33 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Zustand">
 <title>Zustand</title>
 <style>
-@keyframes zustand-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.zustand-ellipse {
-  fill: none;
-  stroke: #D08F58;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: zustand-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.zustand-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.zustand-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes zu-draw { 0%{stroke-dashoffset:180;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-180;opacity:.3} }
+.zu-s{fill:none;stroke:#8b5e3c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:180;stroke-dashoffset:180;animation:zu-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="zustand-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="zustand-ellipse zustand-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="zustand-ellipse zustand-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="zu-s" d="M28 30h44l-30 40h30" style="animation-delay:0s"/>
 </svg>

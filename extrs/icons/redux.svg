@@ -1,33 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Redux">
 <title>Redux</title>
 <style>
-@keyframes redux-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.redux-ellipse {
-  fill: none;
-  stroke: #764ABC;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: redux-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.redux-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.redux-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes redux-draw { 0%{stroke-dashoffset:180;opacity:.3} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-180;opacity:.3} }
+.redux-s{fill:none;stroke:#764ABC;stroke-width:5;stroke-linecap:round;stroke-dasharray:180;stroke-dashoffset:180;animation:redux-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="redux-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="redux-ellipse redux-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="redux-ellipse redux-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<circle cx="50" cy="50" r="7" fill="#764ABC"/>
+<path class="redux-s" d="M62 40c8 4 12 12 8 20-4 8-14 10-22 6"/>
+<path class="redux-s" d="M40 40c-8 4-12 12-8 20 4 8 14 10 22 6" style="animation-delay:.25s"/>
+<path class="redux-s" d="M50 26c9 0 16 6 16 14s-7 14-16 14" style="animation-delay:.5s"/>
 </svg>

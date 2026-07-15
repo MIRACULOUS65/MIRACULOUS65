@@ -1,33 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="C">
 <title>C</title>
 <style>
-@keyframes c-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.c-ellipse {
-  fill: none;
-  stroke: #A8B9CC;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: c-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.c-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.c-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes c-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
+.c-s{fill:none;stroke:#A8B9CC;stroke-width:6;stroke-linecap:round;stroke-dasharray:220;stroke-dashoffset:220;animation:c-draw 2.4s ease-in-out infinite}
 </style>
-<ellipse class="c-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="c-ellipse c-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="c-ellipse c-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="c-s" d="M68 30 A28 28 0 1 0 68 70"/>
 </svg>

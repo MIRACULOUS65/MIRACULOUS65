@@ -1,33 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="C++">
 <title>C++</title>
 <style>
-@keyframes cpp-ani {
-  0% { stroke-dashoffset: -176; }
-  50% { stroke-dashoffset: 0; }
-  100% { stroke-dashoffset: 176; }
-}
-.cpp-ellipse {
-  fill: none;
-  stroke: #00599C;
-  stroke-miterlimit: 10;
-  stroke-width: 3px;
-  stroke-dasharray: 176;
-  stroke-dashoffset: -176;
-  animation: cpp-ani 0.7s infinite ease-in-out;
-  opacity: 1;
-}
-.cpp-ellipse-2 {
-  transform-origin: 50px 50px;
-  transform: rotate(57deg);
-  animation-delay: 0.1s;
-}
-.cpp-ellipse-3 {
-  transform-origin: 50px 50px;
-  transform: rotate(123deg);
-  animation-delay: 0.2s;
-}
+@keyframes cpp-draw { 0%{stroke-dashoffset:220;opacity:.35} 50%{stroke-dashoffset:0;opacity:1} 100%{stroke-dashoffset:-220;opacity:.35} }
+.cpp-s{fill:none;stroke:#00599C;stroke-width:5;stroke-linecap:round;stroke-dasharray:220;stroke-dashoffset:220;animation:cpp-draw 2.4s ease-in-out infinite}
+.cpp-s2{animation-delay:.3s}
 </style>
-<ellipse class="cpp-ellipse" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="cpp-ellipse cpp-ellipse-2" cx="50" cy="50" rx="40" ry="12"/>
-<ellipse class="cpp-ellipse cpp-ellipse-3" cx="50" cy="50" rx="40" ry="12"/>
+<path class="cpp-s" d="M58 28 A26 26 0 1 0 58 72"/>
+<path class="cpp-s cpp-s2" d="M76 42 v16 M68 50 h16 M84 42 v16 M92 50 h-16" stroke-width="4"/>
 </svg>
