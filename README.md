@@ -96,7 +96,7 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
 
 ## GitHub Stats
 
-<table>
+<!-- <table>
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=MIRACULOUS65&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sushovan's GitHub Stats" /></td>
     <td><img src="https://streak-stats.demolab.com/?user=MIRACULOUS65&theme=tokyonight&hide_border=true" alt="Sushovan's GitHub Streak" /></td>
@@ -104,4 +104,4 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
   <tr>
     <td colspan="2" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MIRACULOUS65&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" /></td>
   </tr>
-</table>
+</table> -->
