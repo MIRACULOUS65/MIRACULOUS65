@@ -94,7 +94,7 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
 <img src="./extrs/icons/postman.svg" width="64" height="64" alt="Postman" title="Postman" style="margin: 0 10px 10px 0;" />
 </p>
 
-## GitHub Stats
+<!--## GitHub Stats-->
 
 <!-- <table>
   <tr>
