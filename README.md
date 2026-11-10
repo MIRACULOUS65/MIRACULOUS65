@@ -18,7 +18,7 @@ Email:    sushovan1908@gmail.com
   </tr>
 </table>
 
-## About Me
+<!--## About Me
 
 I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, India, currently pursuing my B.Tech CSE, Techno India University. I enjoy building end-to-end web applications and am equally drawn to Web3/decentralized architectures, exploring how blockchain-based systems can rethink traditional application design. Outside of building projects, I regularly practice competitive programming to sharpen my problem-solving and algorithmic thinking. I'm always looking to deepen my skills across the full stack while staying curious about emerging decentralized technologies.
 
@@ -92,7 +92,7 @@ I'm Sushovan Ghosh, an aspiring full-stack and Web3 developer based in Kolkata, 
 <img src="./extrs/icons/git.svg" width="64" height="64" alt="Git" title="Git" style="margin: 0 10px 10px 0;" />
 <img src="./extrs/icons/github.svg" width="64" height="64" alt="GitHub" title="GitHub" style="margin: 0 10px 10px 0;" />
 <img src="./extrs/icons/postman.svg" width="64" height="64" alt="Postman" title="Postman" style="margin: 0 10px 10px 0;" />
-</p>
+</p>-->
 
 <!--## GitHub Stats-->
 
